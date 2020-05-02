@@ -1,0 +1,48 @@
+/* Write some CSS below */
+body{
+	font-family: Lato; 
+	color:black;
+	font-size:20xp;
+}
+
+h1, h2, h3 {
+  font-family: Chivo;
+}
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: #CE2FAE;
+}
+
+.banner{
+  background-color: yellow;
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
+  text-align: center;
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+  position: center;
+}
+
+.footer {
+  background: green;
+  font-size: 30px;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
